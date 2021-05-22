@@ -1,6 +1,6 @@
 @extends('layouts.layout', ['title' => 'Home page'])
 @section('content')
-{{ 'Displaying a random text to test git commands. A new change. Another change' }}
+{{ 'Displaying a random text to test git commands.' }}
 @if(isset($_GET['search']))
         @if(count($posts)>0)
             <h2>Search results on request "<?= $_GET['search']?>"</h2>
