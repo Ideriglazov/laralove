@@ -1,4 +1,4 @@
-@extends('layouts.layout', ['title' => 'Home page'])
+@extends('layouts.layout', ['title' => 'Home page. Test'])
 @section('content')
 {{ 'Displaying a random text to test git commands. Hello' }}
 @if(isset($_GET['search']))
